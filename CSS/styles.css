@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*Selectors */
+
+body {
+  background-color: #B1D0E0;
+  margin: 0;
+  font-family: "Montserrat";
+  color: #1A374D;
+  line-height: 1,5;
+    }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+h1 {
+  font-size: 80px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  padding-bottom: 20px;
+}
+
+p  {
+  font-size: 25px;
+}
+
+/*Navbar */
+
+.navbar {
+  background-color: #1A374D;
+  overflow: hidden;
+  padding-right: 80px;
+
+}
+
+.navbar a {
+  float: right;
+  color: #B1D0E0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  }
+
+.home {
+  position: absolute;
+  float: left;
+  }
+
+  .navbar a:hover {
+    background-color: #406882;
+  }
+
+  .profile-container {
+    padding-top: 130px;
+    padding-left: 150px;
+    padding-bottom: 160px;
+    }
+
+  .quote {
+    padding-top: 110px;
+  }
+
+.square {
+  height: 200px;
+  width: 480px;
+  background-color: #B1D0E0;
+  border: 10px;
+  border-style: solid;
+  padding-top: 3px;
+  position: absolute;
+  top: 160px;
+  left: 135px;
+  z-index: -1;
+
+}
+
+.square2 {
+  height: 300px;
+  width: 280px;
+  background-color: #B1D0E0;
+  border: 10px;
+  border-style: solid;
+  padding-top: 3px;
+  position: absolute;
+  top: 1750px;
+  left: 620px;
+  z-index: -1;
+
+}
+
+
+.personalinfo-container {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 150px;
+  padding-left: 153px;
+  padding-bottom: 300px;
+}
+
+.portrait {
+  float: left;
+  margin-right: 100px;
+  width: 300px;
+  height: 320px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 250px;
+  font-size: 35px;
+  padding-bottom: 300px;
+  overflow: hidden;
+}
+
+.hobbies {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  text-align: center;
+  display: flex;
+}
+
+.img-hobbies {
+  width: 480px;
+}
+
+.footer-container {
+  background-color: #1A374D;
+  color: #B1D0E0;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.gallery-img {
+  width: 25%;
+  padding: 15px;
+  margin: auto;
+  border: 5px solid;
+}
